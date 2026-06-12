@@ -4,7 +4,7 @@ The same philosophy as the workspace, applied to Google Drive: numbered prefixes
 
 ## Don't build it by hand — it's pre-made
 
-**[Download google-drive-starter.zip](https://github.com/connectwithcliff/give-your-ai-a-map/raw/main/google-drive/google-drive-starter.zip)** — the entire tree below as real folders, ready to go:
+**[Download google-drive-starter.zip](https://raw.githubusercontent.com/connectwithcliff/give-your-ai-a-map/main/google-drive/google-drive-starter.zip)** — the entire tree below as real folders, ready to go:
 
 1. Unzip it on your computer (Drive can't unzip for you)
 2. Open [drive.google.com](https://drive.google.com) and drag the numbered folders straight in
