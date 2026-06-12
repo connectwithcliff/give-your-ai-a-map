@@ -23,6 +23,7 @@ workspace/          The folder system your AI works inside
 └── 99-archive/     Old stuff. Archive, don't delete.
 
 CLAUDE.md           The bootstrap file — your AI reads this first
+PROMPTS.md          Copy-paste prompts that run the system (start here after setup)
 google-drive/       A matching folder structure for Google Drive
 setup.sh            Creates the workspace on your machine in one command
 ```
@@ -34,9 +35,10 @@ setup.sh            Creates the workspace on your machine in one command
    git clone https://github.com/connectwithcliff/give-your-ai-a-map.git my-workspace
    cd my-workspace
    ```
-2. Open `CLAUDE.md` and fill in the blanks — your name, your brands, your tools. It's a template; the square brackets show you what to replace.
+2. Don't fill in `CLAUDE.md` by hand — run **Prompt #1 in `PROMPTS.md`** and let your AI interview you and fill in the blanks itself.
 3. Point your AI at the folder. If you use Claude Code, just run it from this directory — it reads `CLAUDE.md` automatically. Any other agent: paste `CLAUDE.md` in as the first message, or set it as a project instruction.
 4. Set up the matching Drive structure with `google-drive/DRIVE-STRUCTURE.md`.
+5. Use `PROMPTS.md` for the day-to-day: session start, session end, inbox sorting, the monthly friction audit.
 
 That's it. The folders do the rest of the work over time.
 
