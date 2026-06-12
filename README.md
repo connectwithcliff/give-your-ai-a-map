@@ -42,13 +42,14 @@ setup.sh            Creates the workspace on your machine in one command
 
 That's it. The folders do the rest of the work over time.
 
-## The five rules that make it work
+## The six rules that make it work
 
 1. **Numbered prefixes are load-bearing.** `00` sorts before `10` sorts before `99`. Inbox at the top, archive at the bottom, everything in between in priority order. Your AI and your eyes both read it the same way.
 2. **The inbox rule.** Anything new lands in `00-inbox` first. You (or your AI) sort it later. The alternative is clutter spread across every folder.
 3. **End every work session with a handoff.** One markdown file in `20-handoffs`: what got done, what's open, what's next. Next session, your AI reads the latest handoff and continues instead of starting over. This is the single highest-value habit in the whole system.
 4. **Briefs before builds.** Before anything non-trivial, write (or have your AI write) a one-page brief in `25-briefs`: what we're building, decisions made, what done looks like. Briefs become handoffs after the work ships.
-5. **Mirror the structure everywhere.** Your local folders, your Google Drive, your cloud storage — same names, same numbers. When everything matches, nothing gets lost between systems, and your AI can describe a location once and have it be true everywhere.
+5. **Dates are `YYYY-MM-DD`, always.** ISO format is the only date format where alphabetical order IS chronological order. `2026-06-12-brand-launch.md` sorts itself — in your file browser, in Drive, in the terminal, everywhere. `06-12-2026` and `June-12` turn into a shuffled mess by the time you have thirty handoffs. This one habit is why "read the newest handoff" just works.
+6. **Mirror the structure everywhere.** Your local folders, your Google Drive, your cloud storage — same names, same numbers. When everything matches, nothing gets lost between systems, and your AI can describe a location once and have it be true everywhere.
 
 ## One more rule, the important one
 

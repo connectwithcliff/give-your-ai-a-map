@@ -40,7 +40,7 @@ Backups/                   Machine + database backups (keep separate from work f
 1. **Numbers force order.** Drive sorts alphabetically; the prefixes turn that into priority order. Inbox always on top, archive always on the bottom.
 2. **Brand names match everywhere.** If the brand folder is `Pet-Shop-Plus` in your workspace, it's `Pet-Shop-Plus` in Drive, in your cloud storage, in your email labels. One name, every system. This is what lets your AI (and you) find things without thinking.
 3. **The inbox rule.** Never save directly into a deep folder when you're busy — throw it in `00_INBOX` and sort weekly. A messy inbox beats a messy everything.
-4. **Date prefixes on files.** `2026-06-11-brand-invoice.pdf` sorts itself. Loose files named `final_v2_REAL.pdf` are where documents go to die.
+4. **Date prefixes on files — ISO format (`YYYY-MM-DD`).** `2026-06-11-brand-invoice.pdf` sorts itself chronologically in any system; `06-11-2026` never will. Loose files named `final_v2_REAL.pdf` are where documents go to die.
 5. **Mirror it.** If you use rclone, object storage (R2/S3), or local folders, reuse this exact tree. Moving a project between systems then becomes copy-paste instead of archaeology.
 
 ## Email labels too
