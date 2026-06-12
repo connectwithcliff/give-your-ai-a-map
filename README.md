@@ -4,53 +4,45 @@ A free starter structure for working with AI agents — a folder system your AI 
 
 Most people try to make their AI smarter. The bigger win is making your workspace easier to navigate. An AI that knows where everything lives doesn't ask you to re-explain your business every session, doesn't lose your brand voice, and doesn't make you hunt for files mid-flow.
 
-This is a simplified version of the system I run my own businesses on. Clone it, rename things, delete what you don't need.
+This is a simplified version of the system I run my own businesses on.
+
+## Start here
+
+1. **`1-READ-THIS-FIRST.md`** — what this is, in plain human writing (two minutes)
+2. **`2-FEED-THIS-TO-CLAUDE.md`** — drag that one file into Claude and say "go". Claude verifies the kit is clean, interviews you, and builds your whole workspace for you.
+
+That's genuinely the whole setup. Everything below is detail.
 
 ## What's in here
 
 ```
-workspace/          The folder system your AI works inside
-├── 00-inbox/       Drop zone — anything unsorted lands here first
-├── 01-system/      How your operation works (the master index)
-├── 10-tasks/       Active task list (one file, always current)
-├── 20-handoffs/    Session summaries — what happened, where things stand
-├── 25-briefs/      Plans for things you're about to build
-├── 30-ideas/       Idea log — no commitment, just capture
-├── 40-tools/       One doc per API/tool your AI can use
-├── 50-brands/      One folder per brand/project — voice, assets, context
-├── 60-templates/   Reusable formats (emails, posts, briefs)
-├── 70-scripts/     Small utilities
-└── 99-archive/     Old stuff. Archive, don't delete.
-
-CLAUDE.md           The bootstrap file — your AI reads this first
-PROMPTS.md          Copy-paste prompts that run the system (start here after setup)
-INTEGRATIONS.md     Connect it all — GitHub, Obsidian, Notion, Google Drive
-google-drive/       A matching Google Drive layout + ready-made folders (zip, drag & drop)
-setup.sh            Creates the workspace on your machine in one command
+1-READ-THIS-FIRST.md       What this is, for humans
+2-FEED-THIS-TO-CLAUDE.md   The setup file — Claude does the rest
+workspace/                 The folder system your AI works inside
+                           (00-inbox → 99-archive, templates included,
+                           CLAUDE.md bootstrap inside)
+google-drive-folders/      Ready-made Drive folders — drag them
+                           straight into drive.google.com
+guides/                    For after setup:
+                           PROMPTS.md — 12 prompts that run the system
+                           INTEGRATIONS.md — Obsidian, Notion, GitHub, Drive
+                           setup.sh — terminal setup, for the coders
 ```
 
-## Quick start
+## Getting your copy
 
-1. Get your copy — three ways, easiest first:
-   - Click **"Use this template"** (top of this page) → choose **Private** → you own a private copy in one click
-   - No GitHub account? **Code → Download ZIP**
-   - Or clone: `git clone https://github.com/connectwithcliff/give-your-ai-a-map.git my-workspace`
-2. Don't fill in `CLAUDE.md` by hand — run **Prompt #1 in `PROMPTS.md`** and let your AI interview you and fill in the blanks itself.
-3. Point your AI at the folder. If you use Claude Code, just run it from this directory — it reads `CLAUDE.md` automatically. Any other agent: paste `CLAUDE.md` in as the first message, or set it as a project instruction.
-4. Set up Google Drive the lazy way: unzip `google-drive/google-drive-starter.zip` and drag the folders into [drive.google.com](https://drive.google.com). (Details in `google-drive/DRIVE-STRUCTURE.md`.)
-5. Use `PROMPTS.md` for the day-to-day: session start, session end, inbox sorting, the monthly friction audit.
-6. When you're sold on the system, wire it into your tools — GitHub backup, Obsidian, Notion, Drive sync — with `INTEGRATIONS.md` (or just run Prompt #12 and let your AI set it up).
-
-That's it. The folders do the rest of the work over time.
+- Click **"Use this template"** (top of this page) → choose **Private** → you own a private copy in one click
+- No GitHub account? **Code → Download ZIP** — or grab the same kit at [connectwithcliff.com/downloads](https://connectwithcliff.com/downloads/give-your-ai-a-map-starter-kit.zip)
+- Coders: `git clone https://github.com/connectwithcliff/give-your-ai-a-map.git my-workspace`
 
 ## The six rules that make it work
 
 1. **Numbered prefixes are load-bearing.** `00` sorts before `10` sorts before `99`. Inbox at the top, archive at the bottom, everything in between in priority order. Your AI and your eyes both read it the same way.
 2. **The inbox rule.** Anything new lands in `00-inbox` first. You (or your AI) sort it later. The alternative is clutter spread across every folder.
-3. **End every work session with a handoff.** One markdown file in `20-handoffs`: what got done, what's open, what's next. Next session, your AI reads the latest handoff and continues instead of starting over. This is the single highest-value habit in the whole system.
-4. **Briefs before builds.** Before anything non-trivial, write (or have your AI write) a one-page brief in `25-briefs`: what we're building, decisions made, what done looks like. Briefs become handoffs after the work ships.
+3. **End every work session with a handoff.** One markdown file in `03-handoffs`: what got done, what's open, what's next. Next session, your AI reads the latest handoff and continues instead of starting over. This is the single highest-value habit in the whole system.
+4. **Briefs before builds.** Before anything non-trivial, write (or have your AI write) a one-page brief in `04-briefs`: what we're building, decisions made, what done looks like. Briefs become handoffs after the work ships.
 5. **Dates are `YYYY-MM-DD`, always.** ISO format is the only date format where alphabetical order IS chronological order. `2026-06-12-brand-launch.md` sorts itself — in your file browser, in Drive, in the terminal, everywhere. `06-12-2026` and `June-12` turn into a shuffled mess by the time you have thirty handoffs. This one habit is why "read the newest handoff" just works.
-6. **Mirror the structure everywhere.** Your local folders, your Google Drive, your cloud storage — same names, same numbers. When everything matches, nothing gets lost between systems, and your AI can describe a location once and have it be true everywhere.
+6. **Mirror the pattern, not the tree.** The workspace (your AI's brain — words) and your Google Drive (your filing cabinet — files) are deliberately different structures, because they do different jobs. What stays identical across both: your brand folder names (letter for letter), the numbered prefixes, inbox-first, archive-last, and ISO dates. Same labels in every room — so "the logo is in Brand-One/branding" is true wherever you ask it.
 
 ## One more rule, the important one
 

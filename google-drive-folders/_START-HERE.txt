@@ -1,0 +1,15 @@
+HOW TO USE THIS
+
+1. Open drive.google.com in your browser.
+2. Drag the numbered folders (00-inbox through backups) from inside this
+   folder straight into Drive. That's it - the structure uploads itself.
+3. Rename Brand-One and Brand-Two (inside 02-business) to your real brands.
+   Use the SAME names in your AI workspace and your email labels.
+4. Each folder has an _ABOUT.txt explaining what goes in it. Once you know
+   the system, delete them - or keep them as reminders.
+
+The two rules that make it work:
+- Numbers force order: inbox on top, archive on the bottom.
+- Dates are YYYY-MM-DD, always: 2026-06-12-invoice.pdf sorts itself forever.
+
+From the free starter kit: github.com/connectwithcliff/give-your-ai-a-map

@@ -1,0 +1,4 @@
+One folder per project currently in motion.
+
+File naming rule: start dated files with YYYY-MM-DD so they sort themselves.
+From the free starter kit: github.com/connectwithcliff/give-your-ai-a-map

@@ -1,0 +1,4 @@
+Everything new lands here first. Sort it weekly - don't file things while you're busy.
+
+File naming rule: start dated files with YYYY-MM-DD so they sort themselves.
+From the free starter kit: github.com/connectwithcliff/give-your-ai-a-map
