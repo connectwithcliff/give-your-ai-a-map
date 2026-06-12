@@ -101,6 +101,33 @@ Tell me where the names don't match across systems, and give me the shortest
 list of renames to bring everything into alignment.
 ```
 
+## 11. Install this as my private GitHub repo
+
+For after you've decided to keep the system. Your AI does the whole setup:
+
+```
+Set this workspace up as my own PRIVATE GitHub repo:
+1. Check that the gh CLI is installed and authenticated (gh auth status).
+   If not, walk me through installing it and gh auth login first.
+2. Create a private repo under my account called my-workspace.
+3. Copy this starter into it: fresh git history (no link to the original),
+   one initial commit, push to main.
+4. Confirm the repo is PRIVATE — it will hold my business context.
+Then add this habit to CLAUDE.md's standing rules: at the end of every
+session, after writing the handoff, commit and push with a one-line message.
+```
+
+## 12. Connect my note tool (Obsidian, Notion, Drive...)
+
+```
+Read INTEGRATIONS.md. Then ask me which tools I actually use — note app
+(Obsidian / Notion / other / none), GitHub or not, Google Drive or not.
+Based on my answers, walk me through ONLY the relevant sections, one step
+at a time, checking each step worked before moving on. At the end, write
+what we set up into 01-system/MASTER-INDEX.md so future sessions know how
+this workspace syncs.
+```
+
 ---
 
 ## Writing your own

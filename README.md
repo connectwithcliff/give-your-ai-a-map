@@ -24,21 +24,22 @@ workspace/          The folder system your AI works inside
 
 CLAUDE.md           The bootstrap file — your AI reads this first
 PROMPTS.md          Copy-paste prompts that run the system (start here after setup)
+INTEGRATIONS.md     Connect it all — GitHub, Obsidian, Notion, Google Drive
 google-drive/       A matching Google Drive layout + ready-made folders (zip, drag & drop)
 setup.sh            Creates the workspace on your machine in one command
 ```
 
 ## Quick start
 
-1. Clone this repo (or click Code → Download ZIP):
-   ```
-   git clone https://github.com/connectwithcliff/give-your-ai-a-map.git my-workspace
-   cd my-workspace
-   ```
+1. Get your copy — three ways, easiest first:
+   - Click **"Use this template"** (top of this page) → choose **Private** → you own a private copy in one click
+   - No GitHub account? **Code → Download ZIP**
+   - Or clone: `git clone https://github.com/connectwithcliff/give-your-ai-a-map.git my-workspace`
 2. Don't fill in `CLAUDE.md` by hand — run **Prompt #1 in `PROMPTS.md`** and let your AI interview you and fill in the blanks itself.
 3. Point your AI at the folder. If you use Claude Code, just run it from this directory — it reads `CLAUDE.md` automatically. Any other agent: paste `CLAUDE.md` in as the first message, or set it as a project instruction.
 4. Set up Google Drive the lazy way: unzip `google-drive/google-drive-starter.zip` and drag the folders into [drive.google.com](https://drive.google.com). (Details in `google-drive/DRIVE-STRUCTURE.md`.)
 5. Use `PROMPTS.md` for the day-to-day: session start, session end, inbox sorting, the monthly friction audit.
+6. When you're sold on the system, wire it into your tools — GitHub backup, Obsidian, Notion, Drive sync — with `INTEGRATIONS.md` (or just run Prompt #12 and let your AI set it up).
 
 That's it. The folders do the rest of the work over time.
 
