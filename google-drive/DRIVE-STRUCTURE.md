@@ -2,7 +2,19 @@
 
 The same philosophy as the workspace, applied to Google Drive: numbered prefixes, an inbox, an archive, and brand folders that match your workspace names exactly.
 
-Create these folders at the top level of your Drive:
+## Don't build it by hand — it's pre-made
+
+**[Download google-drive-starter.zip](https://github.com/connectwithcliff/give-your-ai-a-map/raw/main/google-drive/google-drive-starter.zip)** — the entire tree below as real folders, ready to go:
+
+1. Unzip it on your computer (Drive can't unzip for you)
+2. Open [drive.google.com](https://drive.google.com) and drag the numbered folders straight in
+3. Rename `Brand-One` / `Brand-Two` to your real brands
+
+Every folder contains a one-line `_ABOUT.txt` explaining what goes in it — delete them once you know the system, or keep them as reminders.
+
+## The structure
+
+If you'd rather build it by hand, create these folders at the top level of your Drive:
 
 ```
 00_INBOX/                  Everything new lands here. Sort it weekly.
